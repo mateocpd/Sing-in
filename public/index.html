@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <script src="https://kit.fontawesome.com/aead8bc7db.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./eye.ico" type="image/x-icon">
+        <title>Creative Sign In</title>
+    </head>
+    <body>
+        <div class="logo">
+            <img src="logo.png" alt="Logo de tu empresa">
+        </div>
+        <h1>Connect with Us</h1>
+        <form onsubmit="return false">
+            <div class="form-item">
+                <label><i class="fa-solid fa-user"></i> Username</label>
+                <div class="input-wrapper">
+                    <input type="text" id="username" autocomplete="off" autocorrect="off" autocapitalize="off" 
+                    spellcheck="false" data-lpignore="true"/>
+                </div>
+            </div>
+            <div class="form-item">
+                <label><i class="fas fa-lock"></i> Password</label>
+                <div class="input-wrapper">
+				<input type="password" id="password" autocomplete="off" autocorrect="off" autocapitalize="off" 
+                    spellcheck="false" data-lpignore="true"/>
+					<button type="button" id="eyeball">
+						<div class="eye"></div>
+					</button>
+					<div id="beam" ></div>
+				</div>
+            </div>
+            <div class="buttons">
+               <button id="signin" alt="sign in">
+                <i>S</i>
+                <i>i</i>
+                <i>g</i>
+                <i>n</i>
+                <i>&nbsp;</i>
+                <i>i</i>
+                <i>n</i>
+            </button>
+            <button id="signup" alt="sign up">
+                <i>S</i>
+                <i>i</i>
+                <i>g</i>
+                <i>n</i>
+                <i>&nbsp;</i>
+                <i>u</i>
+                <i>p</i>
+            </button> 
+            </div>
+			
+        </form>
+		<script src="main.js"></script>
+    </body>
+</html>
